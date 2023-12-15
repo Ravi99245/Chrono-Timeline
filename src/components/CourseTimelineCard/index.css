@@ -1,0 +1,69 @@
+.course-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 100%;
+  font-family: 'Roboto';
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.duration-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-title {
+  color: #171f46;
+  font-size: 22px;
+}
+
+.icon {
+  color: #171f46;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.duration {
+  color: #171f46;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 15px;
+  color: #171f46;
+  font-weight: 500;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.tag-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 0;
+  padding-top: 0;
+}
+.tag {
+  background-color: #cee7f5;
+  margin: 3px;
+  padding: 3px;
+  border-radius: 3px;
+  color: #171f46;
+  font-weight: bold;
+  font-size: 12px;
+}
